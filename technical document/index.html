@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+    <header>JS Documentation</header> 
+    <hr/> 
+
+    <a href="#introduction" class="nav-link">Introduction</a><br /><hr/>
+          
+          <a href="#what_you" class="nav-link" >What you should already know</a><br/><hr/>
+          <a href="#javaScript_and_java" class="nav-link" >JavaScript and Java</a><br/><hr/>
+         <a href="#hello_world" class="nav-link">Hello world</a><br/><hr/>
+          <a href="#more_reference" class="nav-link">More Reference</a><br/><hr/>
+
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <article class="main-article">
+          <p>avaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.</p>
+
+          <p>This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about APIs that are specific to Web pages, please see Web APIs and DOM.</p>
+          <p>The standards for JavaScript :
+             <ul>
+                 <li>ECMAScript Language Specification (ECMA-262)</li>  
+                 <li>ECMAScript Internationalization API specification (ECMA-402).
+            </ul>
+            </p>
+        </article>
+      </section>
+    
+    <section class="main-section" id="what_you">
+        <header>What you should already know</header>
+        <article class="main-article">
+          <p>This guide assumes you have the following basic background:</p>
+          <ul>
+            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main
+              page about JavaScript.</li>
+          </ul>
+        </article>
+
+      </section>
+
+      <section class="main-section" id="javaScript_and_java">
+        <header>javaScript and java</header>
+        <article class="main-article">
+            <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+
+            </p>
+            <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
+            <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
+        </article>
+      </section>
+         <section class="main-section" id="hello_world">
+                <header>Hello world</header>
+                <article class="main-article">
+
+            <p> get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+            <div class = "code">
+                function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");
+            </div>
+             <code>x + 5 = 12 </code>
+             <code>3x - 6 = x</code><br /><br />
+          Now we can solve for "x"! We start by adding 6 to each side.<br /><br />
+          <code>3x = x + 6</code><br /><br />
+          We still need to get "x" by itself, so we subtract "x" from both sides
+          and get:<br /><br />
+          <code>2x = 6</code><br /><br />
+          If this confuses you, remember that "3x" is the same as "x+x+x".
+          Subtract an "x" from that and you get "x+x", or "2x". Now we divide
+          both sides by 2 and have our value for x!<br /><br />
+          <code>x = 3</code><br /><br />
+          However, our work is not done yet. We still need to find the value for
+          "y". Let's go back to our first equation:<br /><br />
+
+          <code>y = 3x</code><br /><br />
+        </article>
+      </section>
+        <section class="main-section" id="more_reference">
+            <header>More Reference</header>
+            <article class="main-article">
+                <ul>
+                    <li class="non-styled"><p>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash" >MDN</a></p></li>
+                <video  controls />
+  <source src="https://youtu.be/sn3CHauUbQ0" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+            </ul>
+         </article>
+        </section>
+</html>
